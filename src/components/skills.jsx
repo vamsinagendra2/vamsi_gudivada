@@ -25,6 +25,22 @@ export function Skills() {
                     </div>
                 </div>
                 <span>{"</div>"}</span>
+                <span>{"<h1>"}</span>
+                <h1>Proficiencies</h1>
+                <span>{"</h1>"}</span>
+                <span>{"<div>"}</span>
+                <div>
+                    <div>
+                       <h1>Frontend</h1>
+                    </div>
+                    <div>
+                        <h1>Mongo DB</h1>
+                    </div>
+                    <div>
+                        <h1>Node JS</h1>
+                    </div>
+                </div>
+                <span>{"</div>"}</span>
                 
            </div>
         </div>

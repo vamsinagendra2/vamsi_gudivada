@@ -9,7 +9,7 @@ export function Contact() {
                 <h1>Contact me</h1>
                 <span>{"</h1>"}</span>
                 <span>{"<p>"}</span>
-                <p>i am intrested and curious to work with you as a developer and you can contact me for any further details,<br/>Thank you</p>
+                <p>i am intrested and curious to work as a developer and you can contact me, if you have something intresting and challenging.<br/>Thank you</p>
                 <span>{"</p>"}</span>
                 <span>{"<form>"}</span>
                 <div>

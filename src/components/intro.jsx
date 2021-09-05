@@ -9,13 +9,13 @@ export function Intro() {
             <span>{"<body>"}</span>
             <span>{"</h1>"}</span>
             <h1>
-                hi,<br />
+                Hai,<br />
                 I'm Vamsi Gudivada,<br />
                 Full stack web developer
             </h1>
             <span>{"</h1>"}</span>
             <span>{"<p>"}</span>
-            <h4>MERN stack developer</h4>
+            <p>Had a passion in the web development</p>
             <span>{"</p>"}</span>
         </div>
     )

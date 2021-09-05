@@ -1,5 +1,6 @@
 *{
-    font-family: "Open Sans",sans-serif;
+    /* font-family: "Open Sans",sans-serif; */
+    font-family: monospace;
 }
 .nav{
     width: 140px;
@@ -70,8 +71,9 @@
 .intro>h1{
     font-size: 50px;
     margin-left: 20px;
+    font-family: monospace;
 }
-.intro>h4{
+.intro>p{
     color: rgb(182, 182, 182);
     margin-left: 30px;
 }
@@ -94,13 +96,15 @@ span{
     padding-left: 20px;
     color: black;
 }
+.skills>span:nth-child(1),.skills>span:nth-child(7){
+    margin-bottom: -50px;
+}
 .skills>h1,.work>h1{
     font-size: 40px;
 }
 .skills>div,.work>div{
     display: flex;
     flex-direction: row;
-    margin-top: 100px;
 }
 
 .skills>div>div,.work>div>div{
@@ -109,7 +113,7 @@ span{
     text-align: center;
     height: 150px;
     color: white;
-    margin: 10px 25px;
+    margin: 0px 25px;
     box-shadow: 1px 1px 20px black;
 }
 .skills>div>div:nth-child(1),.work>div>div:nth-child(1){
@@ -144,7 +148,6 @@ span{
     margin: 20px 30px;
     width: 300px;
     height: 40px;
-    color: white;
 }
 .contact button{
     width: 150px;

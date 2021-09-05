@@ -17,7 +17,7 @@ export function Work() {
                         <h1>Monster india</h1>
                     </div>
                     <div>
-                        <h1>Air bnb</h1>
+                        <h1>Airbnb</h1>
                     </div>
                 </div>
                 <span>{"</div>"}</span>
