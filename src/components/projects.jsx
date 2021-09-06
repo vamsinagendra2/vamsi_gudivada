@@ -1,5 +1,6 @@
 
 import styles from './all.module.css';
+import i from '../video/i.mp4'
 export function Work() {
 
     return (
@@ -11,7 +12,9 @@ export function Work() {
                 <span>{"<div>"}</span>
                 <div>
                     <div>
-                       <h1>LOVODO</h1>
+                        {/* <video autoPlay loop muted className={styles.video}>
+                            <source src={i} type='video/mp4'/>
+                        </video>  */}
                     </div>
                     <div>
                         <h1>Monster india</h1>

@@ -1,10 +1,15 @@
 import styles from './all.module.css';
 
+// import i from '../video/i.mp4'
+
 export function Intro() {
 
 
     return (
         <div className={styles.intro}>
+            {/* <video autoPlay loop muted className={styles.video}>
+                <source src={i} type='video/mp4'/>
+            </video> */}
             <span>{"<html>"}</span>
             <span>{"<body>"}</span>
             <span>{"</h1>"}</span>
