@@ -8,6 +8,7 @@
 //     console.log("hai");
 // }
 
+import { NavLink } from 'react-router-dom';
 import styles from './all.module.css';
 export function Nav() {
 
@@ -20,10 +21,10 @@ export function Nav() {
                     <p>web developer</p>
                 </div>
                 <div className={styles.headings}>
-                    <div><p>About</p></div>
-                    <div><p>My skills</p></div>
-                    <div><p>Work</p></div>
-                    <div><p>contact</p></div>
+                    <NavLink to='/' style={{textDecoration:"none"}}><div><p>About</p></div></NavLink>
+                    <NavLink to='/skills'style={{textDecoration:"none"}}><div><p>My skills</p></div></NavLink>
+                    <NavLink to='/work' style={{textDecoration:"none"}}><div><p>Work</p></div></NavLink>
+                    <NavLink to='/contact' style={{textDecoration:"none"}}><div><p>contact</p></div></NavLink>
                 </div>
             </div>
         </div>

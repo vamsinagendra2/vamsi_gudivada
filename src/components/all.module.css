@@ -18,24 +18,43 @@
     background-color:rgb(9, 0, 32);;
     margin-bottom: 50px;
 }
-.nav>div>h1,.nav>div>p{
+.nav>div>h1:nth-child(2){
+    color: white;
+    margin-left: 30px;
+    margin-top: -20px;
+    letter-spacing: 3px;
+}
+.nav>div>p{
     color: white;
     margin-left: 20px;
+    color:rgb(245, 0, 82) ;
+    font-size: 15px;
 }
+.nav>div>h1:nth-child(1){
+    margin-left: 40px;
+    font-size: 50px;
+    color:rgb(245, 0, 82) ;
+    background: -webkit-linear-gradient(#1e12ff, #ff00ea);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/* headings */
 
 .headings{
     display: flex;
     flex-direction: column;
 }
-.headings>div{
-    border-top:1px solid white ;
-    border-bottom:1px solid white  ;
+.headings div{
+    border: 1px solid rgb(0, 0, 0);
     width: 98%;
     height: 50px;
     text-align: center;
-    padding-bottom: 4px;
+    padding-bottom: 2px;
+    /* box-shadow: 1px 1px 20px rgb(0, 35, 99) inset; */
 }
-.headings>div:hover{
+.headings div:hover{
     cursor: pointer;
     font-size: 18px;
     transition: 0.1s ease-out;
@@ -46,21 +65,24 @@
     color: white;
 }
 .headings p:hover{
-    color: rgb(255, 60, 0);
+    color: rgb(245, 0, 82);
 }
 
 /* intro */
 
-.intro,.work,.contact{
+.intro{
     margin-left: 140px;
-    background-color:rgb(5, 0, 54);;
+    background-color:rgb(5, 0, 54);
     height: 101vh;
     margin-top: -18px;
     padding-top:30px;
     color: white;
     padding-left: 20px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, #020024 30%, #500049 95%);
     /* font-family: "Open Sans",sans-serif; */
 }
+
 /* video */
 
 /* .intro>span{
@@ -75,10 +97,21 @@
     font-size: 50px;
     margin-left: 20px;
     font-family: monospace;
+    transition: font 0.5s;
+    letter-spacing: -1px;
+}
+.intro>h1:hover{
+    /* color:rgb(245, 0, 82) ; */
+    font-size: 55px;
+    background: -webkit-linear-gradient(rgb(2, 91, 255), rgb(255, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* transition: 0.5s ease; */
 }
 .intro>p{
-    color: rgb(182, 182, 182);
+    color: rgb(194, 194, 194);
     margin-left: 30px;
+    font-size: 15px;
 }
 span{
     color: #6d6d6d;
@@ -90,7 +123,6 @@ span{
 }
 /* skills */
 
-
 .skills{
     margin-left: 140px;
     background-color: rgb(255, 255, 255);
@@ -98,45 +130,89 @@ span{
     padding-top:30px;
     padding-left: 20px;
     color: black;
+    /* background: rgb(2,0,36);
+    background: linear-gradient(90deg, #e7e7e7 30%, #000000 150%); */
+    
 }
-.skills>span:nth-child(1),.skills>span:nth-child(7){
+.skills>span:nth-child(1){
+    margin-bottom: -50px;
+}
+.skills>span:nth-child(7){
     margin-bottom: -50px;
 }
 .skills>h1,.work>h1{
     font-size: 40px;
 }
-.skills>div,.work>div{
+.skills>div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.skills>div>div{
+    background-color: rgb(10, 0, 99);  
+    width: 150px;
+    text-align: center;
+    height: 150px;
+    color: white;
+    margin: 0px 40px;
+    box-shadow: 1px 1px 20px rgb(12, 0, 68);
+    border-radius: 50%;
+    font-size: 12px;
+    transition: background-color 0.4s ease;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, #040055 20%, #a8009a 90%);
+}
+
+.skills>div>div:nth-child(1){
+    margin-left: 15%;
+}
+.skills h1{
+    margin-top: 60px;
+}
+
+/* projects */
+.work{
+    margin-left: 140px; 
+    height: 101vh;
+    margin-top: -18px;
+    padding-top:30px;
+    color: white;
+    padding-left: 20px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, #020024 30%, #500049 95%);
+    /* font-family: "Open Sans",sans-serif; */
+}
+.work>div{
     display: flex;
     flex-direction: row;
 }
-
-
-.skills>div>div,.work>div>div{
+.work>div>div{
     background-color: rgb(10, 0, 99);  
-    width: 200px;
+     width: 300px;
     text-align: center;
     height: 150px;
     color: white;
     margin: 0px 25px;
     box-shadow: 1px 1px 20px black;
 }
-.skills>div>div:nth-child(1),.work>div>div:nth-child(1){
+.work>div>div:nth-child(1){
     margin-left: 15%;
 }
-.skills h1,.work h1{
-    margin-top: 55px;
+.work h1{
+    margin-top: 20px;
 }
-
-/* projects */
-
-
-.work>div>div{
-    width: 300px;
-}
-
 /* contact */
+
 .contact{
+    margin-left: 140px;
     background-color:rgb(255, 255, 255) ;
+    height: 101vh;
+    margin-top: -18px;
+    padding-top:30px;
+    color: white;
+    padding-left: 20px;
+    /* font-family: "Open Sans",sans-serif; */
 }
 .contact>h1{
     color: black;
@@ -147,23 +223,35 @@ span{
     font-size: 18px;
     font-style: italic;
 }
-.contact input,.contact button{
+.contact input{
     display: block;
     margin: 20px 30px;
     width: 300px;
     height: 40px;
 }
+
 .contact button{
+    display: block;
+    margin: 20px 30px;
     width: 150px;
     height: 40px;
-    color: black;
-    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
     border: 1px solid rgb(0, 0, 0);
+    background: linear-gradient(90deg, #040055 20%, #a8009a 90%);
 }
 
-.video{
-    width: 300px;
-    height: 150px;
+/* .bgvideo{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
     object-fit:cover;
-    /* transform: translate(-50%,-50%); */
+    /* transform: translate(-10.6%,-2%); 
+} */
+
+.video{
+    height: 150px;
+    width: 300px;
+    object-fit:cover;
 }

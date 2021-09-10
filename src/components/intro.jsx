@@ -1,8 +1,10 @@
+import { useState } from 'react';
 import styles from './all.module.css';
 
-// import i from '../video/i.mp4'
+// import i from '../video/i2.mp4'
 
 export function Intro() {
+    const [name, setName] = useState(false);
 
 
     return (
@@ -16,11 +18,14 @@ export function Intro() {
             <h1>
                 Hai,<br />
                 I'm Vamsi Gudivada,<br />
-                Full stack web developer
             </h1>
+            <h1>Full stack web developer</h1>
             <span>{"</h1>"}</span>
             <span>{"<p>"}</span>
-            <p>Had a passion in the web development</p>
+            <p>"A web developer focused on crafting for a great web experiences.<br/>
+                i am curious and love to be creative which keeps my work out of routine.<br/>
+                Designing and Coding have been my passion since the days I started playing with computers.<br/>
+                I really enjoy creating perfect designs and functional websites...."</p>
             <span>{"</p>"}</span>
         </div>
     )
