@@ -10,6 +10,10 @@
 
 import { NavLink } from 'react-router-dom';
 import styles from './all.module.css';
+import { AiFillGithub } from 'react-icons/ai';
+import {AiFillLinkedin } from 'react-icons/ai';
+import { AiFillMail } from 'react-icons/ai';
+
 export function Nav() {
 
     return (
@@ -26,6 +30,12 @@ export function Nav() {
                     <NavLink to='/work' style={{textDecoration:"none"}}><div><p>Work</p></div></NavLink>
                     <NavLink to='/contact' style={{textDecoration:"none"}}><div><p>contact</p></div></NavLink>
                 </div>
+                <div className={styles.icons}>
+                    <a href="https://github.com/vamsinagendra2"><AiFillGithub /></a>
+                    <a href="https://www.linkedin.com/in/vamsigudivada/"><AiFillLinkedin /></a>
+                    <a href="mailto:vamsinagendra2@gmail.com"><AiFillMail/></a>
+                </div>
+                
             </div>
         </div>
     )
