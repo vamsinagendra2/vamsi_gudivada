@@ -28,7 +28,7 @@ export function Nav() {
                     <NavLink to='/' style={{textDecoration:"none"}}><div><p>About</p></div></NavLink>
                     <NavLink to='/skills'style={{textDecoration:"none"}}><div><p>My skills</p></div></NavLink>
                     <NavLink to='/work' style={{textDecoration:"none"}}><div><p>Work</p></div></NavLink>
-                    <NavLink to='/contact' style={{textDecoration:"none"}}><div><p>contact</p></div></NavLink>
+                    <NavLink to='/contact' style={{textDecoration:"none"}}><div><p>Contact</p></div></NavLink>
                 </div>
                 <div className={styles.icons}>
                     <a href="https://github.com/vamsinagendra2"><AiFillGithub /></a>

@@ -14,19 +14,19 @@ export function Work() {
                 <span>{"<video>"}</span>
                 <div>
                     <div>
-                        <video autoPlay /*loop*/ muted className={styles.video}>
+                        <video autoPlay controls/*loop*/ muted className={styles.video}>
                             <source src={v1} type='video/mp4'/>
                         </video>
                         <h1>Lovodo</h1>
                     </div>
                     <div>
-                        <video autoPlay muted className={styles.video}>
+                        <video autoPlay muted controls className={styles.video}>
                             <source src={v2} type='video/mp4'/>
                         </video>
                         <h1>Monster india</h1>
                     </div>
                     <div>
-                        <video autoPlay muted className={styles.video}>
+                        <video autoPlay muted controls className={styles.video}>
                             <source src={v3} type='video/mp4'/>
                         </video>
                         <h1>Airbnb</h1>

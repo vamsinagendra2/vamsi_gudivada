@@ -41,7 +41,7 @@
   -webkit-text-fill-color: transparent;
 }
 .icons>a{
-  font-size: 18px;
+  font-size: 19px;
   color: white;
   margin:5px;
 }
@@ -64,7 +64,7 @@
   width: 98%;
   height: 50px;
   text-align: center;
-  padding-bottom: 2px;
+  padding-bottom: 2px; 
   /* box-shadow: 2px 2px 10px #c0c0c0 inset; */
 }
 .headings div:hover {
@@ -98,14 +98,7 @@
 
 /* video */
 
-/* .intro>span{
-    color: #646464;
-    font-style: italic;
-    font-size: 15px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: block;
-    margin-bottom: 5px;
-} */
+
 .intro > h1 {
   font-size: 50px;
   margin-left: 20px;
@@ -116,7 +109,7 @@
 .intro > h1:hover {
   /* color:rgb(245, 0, 82) ; */
   font-size: 55px;
-  background: -webkit-linear-gradient(rgb(2, 91, 255), rgb(255, 0, 0));
+  background: -webkit-linear-gradient(rgb(2, 91, 255), rgb(255, 63, 63));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   /* transition: 0.5s ease; */
@@ -124,8 +117,10 @@
 .intro > p {
   color: rgb(194, 194, 194);
   margin-left: 30px;
-  font-size: 15px;
+  font-size: 16px;
+  font-style:italic;
 }
+
 span {
   color: #6d6d6d;
   font-style: italic;
@@ -133,6 +128,53 @@ span {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   display: block;
   margin-bottom: 5px;
+}
+.profileimg{
+  height: 230px;
+  width: 180px;
+  display: block;
+  margin-right: 150px;
+  margin-top: 150px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: white;
+  z-index: 1;
+  overflow: hidden;
+  border-radius: 0% 40% 0% 40%;
+  transition: box-shadow 0.4s ease;
+  transition: margin 0.4s ease;
+  box-shadow: 5px 5px 80px rgb(3, 0, 49);
+  border: 5px solid rgb(212, 212, 212);
+}
+.profileimg:hover{
+  border-radius: 40% 0% 40% 0%;
+  margin-top: 130px;
+  margin-right: 170px;
+  box-shadow: 5px 5px 30px rgb(255, 255, 255);
+  
+}
+.profileimg>img{
+  height: 250px;
+  width: 200px;
+  /* border-radius: 10% 40% 10% 40%; */
+  margin-top: -10px;
+  margin-left: -10px;
+}
+
+.button{
+  display: block;
+  font-size: 14px;
+  margin: 20px 30px;
+  width: 150px;
+  height: 40px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  /* background-color: white; */
+  background: linear-gradient(90deg, #060079 20%, #a8009a 90%);
+  text-align: center;
 }
 /* skills */
 
@@ -164,24 +206,28 @@ span {
 
 .skills > div > div {
   background-color: rgb(10, 0, 99);
-  width: 150px;
+  width: 10vw;
   text-align: center;
-  height: 150px;
+  height: 10vw;
   color: white;
-  margin: 0px 40px;
+  margin: 0px 3vw;
   box-shadow: 1px 1px 20px rgb(12, 0, 68);
   border-radius: 50%;
-  font-size: 12px;
-  transition: background-color 0.4s ease;
+  font-size: 0.7vw;
+  transition: box-shadow 0.4s ease;
   background: rgb(2, 0, 36);
   background: linear-gradient(90deg, #040055 20%, #a8009a 90%);
 }
 
+.skills > div > div:hover{
+box-shadow: 2px 2px 50px rgb(12, 0, 68);
+}
+
 .skills > div > div:nth-child(1) {
-  margin-left: 15%;
+  margin-left: 11%;
 }
 .skills h1 {
-  margin-top: 60px;
+  margin-top: 4vw;
 }
 
 /* projects */
@@ -202,15 +248,19 @@ span {
 }
 .work > div > div {
   background-color: rgb(10, 0, 99);
-  width: 300px;
+  width: 30%;
+  height: 13.5vw;
   text-align: center;
-  height: 150px;
   color: white;
   margin: 0px 25px;
   box-shadow: 1px 1px 20px black;
 }
 .work > div > div:nth-child(1) {
-  margin-left: 15%;
+  margin-left: 5%;
+}
+
+.video {
+  width: 100%;
 }
 .work h1 {
   margin-top: 20px;
@@ -230,6 +280,8 @@ span {
 .contact > h1 {
   color: black;
   font-size: 40px;
+  margin-top: -10px;
+  margin-bottom: 0px;
 }
 .contact p {
   color: black;
@@ -253,6 +305,15 @@ span {
   border: 1px solid rgb(0, 0, 0);
   background: linear-gradient(90deg, #040055 20%, #a8009a 90%);
 }
+.details>a{
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 800;
+  margin-left: 20px;
+  line-height: 25px;
+  color: #88007d;
+}
 
 /* .bgvideo{
     height: 100%;
@@ -263,8 +324,4 @@ span {
     /* transform: translate(-10.6%,-2%); 
 } */
 
-.video {
-  height: 150px;
-  width: 300px;
-  object-fit: cover;
-}
+
