@@ -157,7 +157,6 @@ span {
 .profileimg>img{
   height: 250px;
   width: 200px;
-  /* border-radius: 10% 40% 10% 40%; */
   margin-top: -10px;
   margin-left: -10px;
 }
@@ -175,13 +174,15 @@ span {
   /* background-color: white; */
   background: linear-gradient(90deg, #060079 20%, #a8009a 90%);
   text-align: center;
+  
 }
+
 /* skills */
 
 .skills {
   margin-left: 140px;
   background-color: rgb(255, 255, 255);
-  height: 100vh;
+  height: 98vh;
   padding-top: 30px;
   padding-left: 20px;
   color: black;
@@ -196,7 +197,7 @@ span {
 }
 .skills > h1,
 .work > h1 {
-  font-size: 40px;
+  font-size: 35px;
 }
 .skills > div {
   display: flex;
@@ -217,6 +218,7 @@ span {
   transition: box-shadow 0.4s ease;
   background: rgb(2, 0, 36);
   background: linear-gradient(90deg, #040055 20%, #a8009a 90%);
+  
 }
 
 .skills > div > div:hover{
@@ -226,10 +228,20 @@ box-shadow: 2px 2px 50px rgb(12, 0, 68);
 .skills > div > div:nth-child(1) {
   margin-left: 11%;
 }
-.skills h1 {
-  margin-top: 4vw;
+
+.skills img{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 450px;
+  height: 300px;
 }
 
+.skills i,.redux{
+  margin-top: 30px;
+  font-size: 40px;
+  /* color: #8d0000; */
+}
 /* projects */
 .work {
   margin-left: 140px;
@@ -247,7 +259,7 @@ box-shadow: 2px 2px 50px rgb(12, 0, 68);
   flex-direction: row;
 }
 .work > div > div {
-  background-color: rgb(10, 0, 99);
+  /* background-color: rgb(10, 0, 99); */
   width: 30%;
   height: 13.5vw;
   text-align: center;
@@ -264,6 +276,11 @@ box-shadow: 2px 2px 50px rgb(12, 0, 68);
 }
 .work h1 {
   margin-top: 20px;
+}
+.work a{
+  color: #0077ff;
+  font-size: 20px;
+  margin-left: 15px;
 }
 /* contact */
 
@@ -314,6 +331,15 @@ box-shadow: 2px 2px 50px rgb(12, 0, 68);
   line-height: 25px;
   color: #88007d;
 }
+
+.contact img{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 400px;
+  height: 330px;
+}
+
 
 /* .bgvideo{
     height: 100%;

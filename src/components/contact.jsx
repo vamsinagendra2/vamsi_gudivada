@@ -3,7 +3,10 @@ import styles from './all.module.css';
 import {HiPhoneIncoming } from 'react-icons/hi';
 import { AiFillMail } from 'react-icons/ai';
 // import i from '../video/i2.mp4'
+import hello from '../video/hello.svg'
 export function Contact() {
+
+    
 
     return (
         <div>
@@ -15,8 +18,8 @@ export function Contact() {
                 <h1>Contact me</h1>
                 <span>{"</h1>"}</span>
                 <span>{"<p>"}</span>
-                <p>i am intrested and curious to work as a developer and you can contact me,<br/>
-                    if you have something intresting and challenging for me.<br />Thank you</p>
+                <p>i am interested and curious to work as a developer and you can contact me,<br/>
+                    if you have something interesting and challenging for me.<br />Thank you</p>
                 <span>{"</p>"}</span>
                 <span>{"</a>"}</span>
                 <div className={styles.details}>
@@ -24,7 +27,6 @@ export function Contact() {
                     <a href="#."><HiPhoneIncoming/> +91-9658194444</a>
                 </div>
                 <span>{"</a>"}</span>
-
                 
                 <span>{"<form>"}</span>
                 <div>
@@ -37,7 +39,10 @@ export function Contact() {
                 <span>{"</form>"}</span>
                 <span>{"</body>"}</span>
                 <span>{"</html>"}</span>
+                <img src={hello} alt="" />
             </div>
+            
+                
         </div>
     )
 }
