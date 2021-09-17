@@ -4,6 +4,8 @@ import {HiPhoneIncoming } from 'react-icons/hi';
 import { AiFillMail } from 'react-icons/ai';
 // import i from '../video/i2.mp4'
 import hello from '../video/hello.svg'
+import { AiFillGithub } from 'react-icons/ai';
+import {AiFillLinkedin } from 'react-icons/ai';
 export function Contact() {
 
     
@@ -18,13 +20,16 @@ export function Contact() {
                 <h1>Contact me</h1>
                 <span>{"</h1>"}</span>
                 <span>{"<p>"}</span>
-                <p>i am interested and curious to work as a developer and you can contact me,<br/>
-                    if you have something interesting and challenging for me.<br />Thank you</p>
+                <p>Hi there!<br/> If you have some interesting and challenging problem that I can help you with,<br />
+                    feel free to connect over me.<br />
+                    Thank you....</p>
                 <span>{"</p>"}</span>
                 <span>{"</a>"}</span>
                 <div className={styles.details}>
-                    <a href="mailto:vamsinagendra2@gmail.com"><AiFillMail/> vamsinagendra2@gmail.com</a><br/>
-                    <a href="#."><HiPhoneIncoming/> +91-9658194444</a>
+                    <a href="mailto:vamsinagendra2@gmail.com" target="_blank" rel="noopener noreferrer"><AiFillMail /> vamsinagendra2@gmail.com</a><br />
+                    <a href="https://github.com/vamsinagendra2" target="_blank" rel="noopener noreferrer"><AiFillGithub />  Vamsinagendra2</a><br />
+                    <a href="https://www.linkedin.com/in/vamsigudivada/" target="_blank" rel="noopener noreferrer"><AiFillLinkedin />  Vamsi Gudivada </a><br />
+                    <a href="tel:9658194444"><HiPhoneIncoming/> +91-9658194444</a>
                 </div>
                 <span>{"</a>"}</span>
                 

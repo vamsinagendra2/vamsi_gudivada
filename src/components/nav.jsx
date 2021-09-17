@@ -31,9 +31,9 @@ export function Nav() {
                     <NavLink to='/contact' style={{textDecoration:"none"}}><div><p>Contact</p></div></NavLink>
                 </div>
                 <div className={styles.icons}>
-                    <a href="https://github.com/vamsinagendra2"><AiFillGithub /></a>
-                    <a href="https://www.linkedin.com/in/vamsigudivada/"><AiFillLinkedin /></a>
-                    <a href="mailto:vamsinagendra2@gmail.com"><AiFillMail/></a>
+                    <a href="https://github.com/vamsinagendra2" target="_blank" rel="noopener noreferrer"><AiFillGithub /></a>
+                    <a href="https://www.linkedin.com/in/vamsigudivada/" target="_blank" rel="noopener noreferrer"><AiFillLinkedin /></a>
+                    <a href="mailto:vamsinagendra2@gmail.com" target="_blank" rel="noopener noreferrer"><AiFillMail/></a>
                 </div>
                 
             </div>

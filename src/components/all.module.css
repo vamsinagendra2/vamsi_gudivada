@@ -199,6 +199,10 @@ span {
 .work > h1 {
   font-size: 35px;
 }
+.skills > h1{
+  margin-top: 60px;
+  font-family:'Lucida Sans';
+}
 .skills > div {
   display: flex;
   flex-direction: row;
@@ -276,6 +280,7 @@ box-shadow: 2px 2px 50px rgb(12, 0, 68);
 }
 .work h1 {
   margin-top: 20px;
+  font-family:'Lucida Sans';
 }
 .work a{
   color: #0077ff;
@@ -296,14 +301,16 @@ box-shadow: 2px 2px 50px rgb(12, 0, 68);
 }
 .contact > h1 {
   color: black;
-  font-size: 40px;
-  margin-top: -10px;
+  font-size: 35px;
+  margin-top: -5px;
   margin-bottom: 0px;
+  font-family:'Lucida Sans';
 }
 .contact p {
   color: black;
   font-size: 18px;
   font-style: italic;
+  line-height: 25px;
 }
 .contact input {
   display: block;
