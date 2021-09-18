@@ -24,6 +24,7 @@ export function Work() {
                         </div>
                         <p>Lovoda is an E-commerce online store which is located in the US,
                             It has accessories and jewelry for women in a wide range of varaitants </p>
+                        <h4>Tech-Stack: JavaScript, HTML, CSS</h4>
                     </div>
                     <div>
                         <video autoPlay muted controls className={styles.video}>
@@ -36,7 +37,7 @@ export function Work() {
                         </div>
                         <p>Monster India is the India's leading online career and recruitment resource, with its
                             cutting edge technology provides relevant profiles to employers and relevant jobs to jobseekers</p>
-                        
+                        <h4>Tech-Stack: React, Material UI, npm, JavaScript, CSS</h4>
                     </div>
                     <div>
                         <video autoPlay muted controls className={styles.video}>
@@ -49,13 +50,21 @@ export function Work() {
                         </div>
                         <p>Airbnb is is an American company that operates an online marketplace for lodging,
                             primarily homestays for vacation rentals, and tourism activities.</p>
+                        <h4>Tech-Stack: React, Material UI, npm, JavaScript, CSS</h4>
                         
                     </div>
                 </div>
                 <span>{"</video>"}</span>
                 <span>{"<h1>"}</span>
-                
+                <br />
+                <br />
                 <span>{"</h1>"}</span>
+                <span>{"<p>"}</span>
+                <br />
+                <br />
+                <br />
+                <br />
+                <span>{"</p>"}</span>
 
             </div>
         </div>

@@ -105,14 +105,24 @@
   font-family: monospace;
   transition: font 0.5s;
   letter-spacing: -1px;
+  color: transparent;
+  -webkit-text-stroke: 0.2px rgb(147, 212, 255);
+  background-image: url('../video/back.png');
+  -webkit-background-clip: text;
+  background-position: 0 0;
+  animation: back 20s linear infinite;
+}
+@keyframes back {
+  100%{
+    background-position: 2000px 0;
+  }
 }
 .intro > h1:hover {
   /* color:rgb(245, 0, 82) ; */
-  font-size: 55px;
-  background: -webkit-linear-gradient(rgb(2, 91, 255), rgb(255, 63, 63));
+  font-size: 55px; 
+   background: -webkit-linear-gradient(rgb(2, 91, 255), rgb(255, 63, 63));
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  /* transition: 0.5s ease; */
+  -webkit-text-stroke: 0px rgb(147, 212, 255);
 }
 .intro > p {
   color: rgb(194, 194, 194);
