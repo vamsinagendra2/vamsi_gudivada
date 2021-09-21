@@ -23,7 +23,7 @@ export function Work() {
                             <a href="https://github.com/vamsinagendra2/Project-LOVODA" target="_blank" rel="noopener noreferrer"><AiFillGithub /></a>
                         </div>
                         <p>Lovoda is an E-commerce online store which is located in the US,
-                            It has accessories and jewelry for women in a wide range of varaitants </p>
+                            It has accessories and jewelry for women in a wide range of variants </p>
                         <h4>Tech-Stack: JavaScript, HTML, CSS</h4>
                     </div>
                     <div>
