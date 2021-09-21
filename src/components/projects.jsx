@@ -35,7 +35,7 @@ export function Work() {
                             <a href="https://github.com/pallav1998/Monster_Project" target="_blank" rel="noopener noreferrer"><AiFillGithub /></a>
                             <a href="https://monsterindia.netlify.app/" target="_blank" rel="noopener noreferrer"><AiOutlineDeploymentUnit /></a>
                         </div>
-                        <p>Monster India is the India's leading online career and recruitment resource, with its
+                        <p>Monster India is India's leading online career and recruitment resource, with its
                             cutting edge technology provides relevant profiles to employers and relevant jobs to jobseekers</p>
                         <h4>Tech-Stack: React, Material UI, npm, JavaScript, CSS</h4>
                     </div>
@@ -48,7 +48,7 @@ export function Work() {
                             <a href="https://github.com/ks-1007/Airbnb-clone" target="_blank" rel="noopener noreferrer"><AiFillGithub /></a>
                             <a href="https://airbnb-clone-one-weld.vercel.app/" target="_blank" rel="noopener noreferrer"><AiOutlineDeploymentUnit /></a>
                         </div>
-                        <p>Airbnb is is an American company that operates an online marketplace for lodging,
+                        <p>Airbnb is an American company that operates an online marketplace for lodging,
                             primarily homestays for vacation rentals, and tourism activities.</p>
                         <h4>Tech-Stack: React, Material UI, npm, JavaScript, CSS</h4>
                         
