@@ -50,7 +50,7 @@ export function Work() {
                         </div>
                         <p>Airbnb is an American company that operates an online marketplace for lodging,
                             primarily homestays for vacation rentals, and tourism activities.</p>
-                        <h4>Tech-Stack: React, Material UI, npm, JavaScript, CSS</h4>
+                        <h4>Tech-Stack: React,Redux, Material UI, npm, JavaScript, CSS</h4>
                         
                     </div>
                 </div>
