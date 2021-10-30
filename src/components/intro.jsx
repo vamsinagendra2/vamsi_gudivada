@@ -26,7 +26,9 @@ export function Intro() {
                 {/* "I say it because I mean it" */}
                  </p>
             <span>{"</p>"}</span>
+            <span>{"<button>"}</span>
             <NavLink to='/contact' style={{textDecoration:"none"}}><div className={styles.button}><p>contact me</p></div></NavLink>
+            <span>{"</button>"}</span>
             <div className={styles.profileimg}><img src={v} alt="" /></div>
         </div>
     )

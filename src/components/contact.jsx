@@ -20,8 +20,8 @@ export function Contact() {
                 <h1>Contact me</h1>
                 <span>{"</h1>"}</span>
                 <span>{"<p>"}</span>
-                <p>Hi there!<br/> If you have some interesting and challenging problem that I can help you with,<br />
-                    feel free to connect over me.<br />
+                <p>Hi there!<br/> If you have some interesting and challenging problems that I can help you with,<br />
+                    feel free to connect with me.<br />
                     Thank you....</p>
                 <span>{"</p>"}</span>
                 <span>{"</a>"}</span>
