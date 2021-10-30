@@ -162,13 +162,18 @@ span {
   margin-top: 130px;
   margin-right: 170px;
   box-shadow: 5px 5px 30px rgb(255, 255, 255);
-  
 }
 .profileimg>img{
   height: 250px;
   width: 200px;
   margin-top: -10px;
   margin-left: -10px;
+}
+
+@media screen and (max-width: 1080px) {
+  .profileimg{
+    display: none;
+  }
 }
 
 .button{
@@ -259,7 +264,7 @@ box-shadow: 2px 2px 50px rgb(12, 0, 68);
 /* projects */
 .work {
   margin-left: 140px;
-  height: 101vh;
+  height: auto;
   margin-top: -18px;
   padding-top: 30px;
   color: white;
@@ -267,22 +272,23 @@ box-shadow: 2px 2px 50px rgb(12, 0, 68);
   background: rgb(2, 0, 36);
   background: linear-gradient(90deg, #020024 30%, #500049 95%);
   /* font-family: "Open Sans",sans-serif; */
+  padding-bottom: 80px;
 }
 .work > div {
   display: flex;
   flex-direction: row;
 }
 .work > div > div {
-  /* background-color: rgb(10, 0, 99); */
+  /* background-color: rgb(180, 180, 180); */
   width: 30%;
   height: 13.5vw;
   text-align: center;
   color: white;
-  margin: 0px 25px;
+  margin: 0px 80px;
   box-shadow: 1px 1px 20px black;
 }
 .work > div > div:nth-child(1) {
-  margin-left: 5%;
+  margin-left: 9%;
 }
 
 .video {
@@ -297,6 +303,9 @@ box-shadow: 2px 2px 50px rgb(12, 0, 68);
   font-size: 20px;
   margin-left: 15px;
 }
+.work span:nth-child(17){
+  margin-top: 100px;
+}
 /* contact */
 
 .contact {
@@ -307,7 +316,6 @@ box-shadow: 2px 2px 50px rgb(12, 0, 68);
   padding-top: 30px;
   color: white;
   padding-left: 20px;
-  /* font-family: "Open Sans",sans-serif; */
 }
 .contact > h1 {
   color: black;

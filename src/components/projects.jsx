@@ -3,6 +3,7 @@ import styles from './all.module.css';
 import v1 from '../video/videos/Lovodo.mp4'
 import v2 from '../video/videos/Monster.mp4'
 import v3 from '../video/videos/airbnb.mp4'
+import v4 from '../video/videos/LinkedIn.mp4'
 import { AiFillGithub,AiOutlineDeploymentUnit } from 'react-icons/ai';
 export function Work() {
 
@@ -39,6 +40,22 @@ export function Work() {
                             cutting edge technology provides relevant profiles to employers and relevant jobs to jobseekers</p>
                         <h4>Tech-Stack: React, Material UI, npm, JavaScript, CSS</h4>
                     </div>
+                </div>
+                <span>{"</video>"}</span>
+                <span>{"<h1>"}</span>
+                <br />
+                <br />
+                <span>{"</h1>"}</span>
+                <span>{"<p>"}</span>
+                <br />
+                <br />
+                <br />
+                <br />
+                <span>{"</p>"}</span>
+
+                {/* ................................ */}
+                <span>{"<video>"}</span>
+                <div>
                     <div>
                         <video autoPlay muted controls className={styles.video}>
                             <source src={v3} type='video/mp4'/>
@@ -53,13 +70,32 @@ export function Work() {
                         <h4>Tech-Stack: React, Material UI, npm, JavaScript, CSS</h4>
                         
                     </div>
+                    <div>
+                        <video autoPlay muted controls className={styles.video}>
+                            <source src={v4} type='video/mp4'/>
+                        </video>
+                        <h1>LinkedIn</h1>
+                        <div>
+                            <a href="https://github.com/ks-1007/LinkedIn-project/tree/vamsi" target="_blank" rel="noopener noreferrer"><AiFillGithub /></a>
+                            {/* <a href="https://monsterindia.netlify.app/" target="_blank" rel="noopener noreferrer"><AiOutlineDeploymentUnit /></a> */}
+                        </div>
+                        <p>LinkedIn, the world's largest professional network with 774+
+                            million members in more than 200 countries and territories worldwide.</p>
+                        <h4>Front-end: React.js,Javascript,HTML,CSS and npm.<br/>
+                            <br/>Back-end: express js(server), mongodb(database)</h4>
+                    </div>
+                    
                 </div>
+                <br />
                 <span>{"</video>"}</span>
                 <span>{"<h1>"}</span>
                 <br />
                 <br />
                 <span>{"</h1>"}</span>
                 <span>{"<p>"}</span>
+                <br />
+                <br />
+                <br />
                 <br />
                 <br />
                 <br />

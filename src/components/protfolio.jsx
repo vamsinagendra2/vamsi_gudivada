@@ -8,7 +8,7 @@ import { Route, Switch } from "react-router";
 
 export function Portfolio() {
     return (
-        <div>
+        <div >
             <Nav />
             <Switch>
             <Route exact path="/">

@@ -8,7 +8,7 @@ export function Skills() {
             
             <div className={styles.skills}>
                 <span>{"<h1>"}</span>
-                <h1>Skills</h1>
+                <h1>Front-end :</h1>
                 <span>{"</h1>"}</span>
                 <span>{"<div>"}</span>
                 <div>
@@ -37,13 +37,13 @@ export function Skills() {
                 </div>
                 <span>{"</div>"}</span>
                 <span>{"<h1>"}</span>
-                <h1>Proficiencies</h1>
+                <h1>Back-end :</h1>
                 <span>{"</h1>"}</span>
                 <span>{"<div>"}</span>
                 <div>
                     <div>
                         <i class="fas fa-laptop-code"></i>
-                       <h1>Frontend</h1>
+                       <h1>Express JS</h1>
                     </div>
                     <div>
                         <i class="fas fa-database"></i>
