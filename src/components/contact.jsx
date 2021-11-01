@@ -29,7 +29,7 @@ export function Contact() {
                     <a href="mailto:vamsinagendra2@gmail.com" target="_blank" rel="noopener noreferrer"><AiFillMail /> vamsinagendra2@gmail.com</a><br />
                     <a href="https://github.com/vamsinagendra2" target="_blank" rel="noopener noreferrer"><AiFillGithub />  Vamsinagendra2</a><br />
                     <a href="https://www.linkedin.com/in/vamsigudivada/" target="_blank" rel="noopener noreferrer"><AiFillLinkedin />  Vamsi Gudivada </a><br />
-                    <a href="tel:9658194444"><HiPhoneIncoming/> +91-9658194444</a>
+                    <a href="tel:9658194444"><HiPhoneIncoming/> +91-9658194444,8985681378</a>
                 </div>
                 <span>{"</a>"}</span>
                 
