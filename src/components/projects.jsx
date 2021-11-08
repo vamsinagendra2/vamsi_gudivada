@@ -14,8 +14,6 @@ export function Work() {
                 <span>{"<h1>"}</span>
                 <h1>Projects</h1>
                 <span>{"</h1>"}</span>
-                
-
                 <span>{"<video>"}</span>
                 <div >
                     <div style={{marginLeft:"400px"}}>
@@ -38,8 +36,16 @@ export function Work() {
                 <span>{"<h1>"}</span>
                 <br />
                 <br />
+                <br />
+                <br />
                 <span>{"</h1>"}</span>
                 <span>{"<p>"}</span>
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
                 <br />
                 <br />
                 <br />
@@ -84,6 +90,8 @@ export function Work() {
                 <br />
                 <span>{"</video>"}</span>
                 <span>{"<h1>"}</span>
+                <br />
+                <br />
                 <br />
                 <br />
                 <span>{"</h1>"}</span>
@@ -134,8 +142,14 @@ export function Work() {
                 <span>{"<h1>"}</span>
                 <br />
                 <br />
+                <br />
+                <br />
                 <span>{"</h1>"}</span>
                 <span>{"<p>"}</span>
+                <br />
+                <br />
+                <br />
+                <br />
                 <br />
                 <br />
                 <br />

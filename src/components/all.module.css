@@ -3,7 +3,7 @@
   font-family: monospace;
 }
 .nav {
-  width: 140px;
+  width: 145px;
   height: 100vh;
   /* background-color: rgb(39, 39, 39); */
   /* background-color: rgb(0, 30, 87); */
@@ -28,9 +28,10 @@
 }
 .nav > div > p {
   color: white;
-  margin-left: 20px;
-  color: rgb(245, 0, 82);
-  font-size: 15px;
+  color: rgb(255, 0, 85);
+  font-size: 16px;
+  margin-left: 2px;
+  font-weight: bold;
 }
 .nav > div > h1:nth-child(1) {
   margin-left: 40px;
@@ -69,16 +70,20 @@
 }
 .headings div:hover {
   cursor: pointer;
-  font-size: 18px;
+  /* font-size: 18px; */
   transition: 0.1s ease-out;
 }
 
 .headings p {
   /* color: rgb(150, 150, 150); */
   color: white;
+  margin-top: 15px;
 }
 .headings p:hover {
+  font-size: 18px;
+  transition: 0.1s ease-out;
   color: rgb(245, 0, 82);
+  
 }
 
 /* intro */
@@ -134,6 +139,8 @@
 
 span {
   color: #6d6d6d;
+  /* color: rgb(164, 0, 179); */
+  /* color: black; */
   font-style: italic;
   font-size: 15px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -214,6 +221,10 @@ span {
 .skills > h1,
 .work > h1 {
   font-size: 35px;
+  text-shadow: 7px 7px 3px rgb(185, 185, 185);
+}
+.work > h1 {
+  text-shadow: 4px 4px 3px rgb(117, 117, 117);
 }
 .work h1+p{
   font-size: 20px;
@@ -242,6 +253,14 @@ span {
   background: rgb(2, 0, 36);
   background: linear-gradient(90deg, #040055 20%, #a8009a 90%);
   
+}
+.skills > div > div{
+  animation: pulse 2s ease-in infinite;
+}
+
+@keyframes pulse{
+  25%  {transform: scale(0.8);}
+  95%  {transform: scale(1.0);}
 }
 
 .skills > div > div:hover{
@@ -327,6 +346,7 @@ box-shadow: 2px 2px 50px rgb(12, 0, 68);
   margin-top: -5px;
   margin-bottom: 0px;
   font-family:'Lucida Sans';
+  text-shadow: 7px 7px 3px rgb(185, 185, 185);
 }
 .contact p {
   color: black;

@@ -12,7 +12,7 @@ export function Skills() {
                 <span>{"</h1>"}</span>
                 <span>{"<div>"}</span>
                 <div>
-                    <div>
+                    <div id='pulse'>
                         <i class="fab fa-html5"></i>
                         <h1>HTML</h1>
                     </div>
