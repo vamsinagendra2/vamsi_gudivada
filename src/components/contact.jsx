@@ -2,20 +2,29 @@
 import styles from './all.module.css';
 import {HiPhoneIncoming } from 'react-icons/hi';
 import { AiFillMail } from 'react-icons/ai';
-// import i from '../video/i2.mp4'
 import hello from '../video/hello.svg'
 import { AiFillGithub } from 'react-icons/ai';
-import {AiFillLinkedin } from 'react-icons/ai';
+import { AiFillLinkedin } from 'react-icons/ai';
+import emailjs from 'emailjs-com';
+
+
 export function Contact() {
 
-    
+    const sendEmail = (e) => {
+        alert(`Thank you`);
+        // console.log(e.target.)
+        e.preventDefault();
+        emailjs.sendForm(`service_gcng0uq`, `template_qzbpbfm`, e.target, `user_xNEecUmU7hYYJWfyJCZ8z`)
+            .then((response) => {
+                console.log('SUCCESS!', response.status, response.text);
+            }, (err) => {
+                console.log('FAILED...', err);
+            });
+    }
 
     return (
         <div>
             <div className={styles.contact} >
-                {/* <video autoPlay loop muted className={styles.bgvideo}>
-                <source src={i} type='video/mp4'/>
-                </video> */}
                 <span>{"<h1>"}</span>
                 <h1>Contact me</h1>
                 <span>{"</h1>"}</span>
@@ -35,16 +44,21 @@ export function Contact() {
                 
                 <span>{"<form>"}</span>
                 <div>
-                    <input type="text" placeholder="Name" />
-                    <input type="email" placeholder="Email" />
-                    <input type="text" placeholder="Subject" />
-                    <button>send message</button>
+                    <form action="" onSubmit={sendEmail}>
+                        <input type="text" name ="name" placeholder="Name" />
+                        <input type="email" name="mail" placeholder="Email" />
+                        <input type="text" name="message" placeholder="Subject" />
+                        <input type="submit" value="send message" />
+                    </form>
+                    
+                    {/* <button onClick={sendEmail}>send message</button> */}
                 </div>
 
                 <span>{"</form>"}</span>
                 <span>{"</body>"}</span>
                 <span>{"</html>"}</span>
                 <img src={hello} alt="" />
+                <p>{"<"}Thank you for visiting{"/>"}<br/> @ Vamsi Gudivada</p>
             </div>
             
                 

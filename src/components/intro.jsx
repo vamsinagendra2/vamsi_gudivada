@@ -27,9 +27,15 @@ export function Intro() {
                  </p>
             <span>{"</p>"}</span>
             <span>{"<button>"}</span>
+            {/* <a href="https://drive.google.com/file/d/1GVEDu7cQfdzWiq-uV271JJlu3JN1qh-g/view?usp=sharing" target="_blank" rel="noopener noreferrer"><div className={styles.button}><p>contact me</p></div></a> */}
             <NavLink to='/contact' style={{textDecoration:"none"}}><div className={styles.button}><p>contact me</p></div></NavLink>
             <span>{"</button>"}</span>
-            <div className={styles.profileimg}><img src={v} alt="" /></div>
+            <a href="https://drive.google.com/file/d/1GVEDu7cQfdzWiq-uV271JJlu3JN1qh-g/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                <div className={styles.profileimg}>
+                <img src={v} alt="" />
+            </div>
+            </a>
+            <p>^<br/>^^^<br/>Click here <br/>To view my "Resume"</p>
         </div>
     )
 }

@@ -3,7 +3,7 @@
   font-family: monospace;
 }
 .nav {
-  width: 145px;
+  width: 150px;
   height: 100vh;
   /* background-color: rgb(39, 39, 39); */
   /* background-color: rgb(0, 30, 87); */
@@ -177,9 +177,21 @@ span {
   margin-top: -10px;
   margin-left: -10px;
 }
+.intro>a+p{
+  color: rgb(255, 255, 255);
+  margin-right: 170px;
+  margin-top: 430px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  text-align: center;
+  z-index: 1;
+  font-style: normal;
+  font-size: 14px;
+}
 
 @media screen and (max-width: 1080px) {
-  .profileimg{
+  .profileimg,.intro>a+p{
     display: none;
   }
 }
@@ -245,12 +257,11 @@ span {
   text-align: center;
   height: 10vw;
   color: white;
-  margin: 0px 3vw;
+  margin: 0px 2.5vw;
   box-shadow: 1px 1px 20px rgb(12, 0, 68);
   border-radius: 50%;
   font-size: 0.7vw;
   transition: box-shadow 0.4s ease;
-  background: rgb(2, 0, 36);
   background: linear-gradient(90deg, #040055 20%, #a8009a 90%);
   
 }
@@ -268,15 +279,14 @@ box-shadow: 2px 2px 50px rgb(12, 0, 68);
 }
 
 .skills > div > div:nth-child(1) {
-  margin-left: 11%;
+  margin-left: 9%;
 }
 
 .skills img{
   position: absolute;
-  top: 0;
-  right: 0;
-  margin-top: 450px;
-  height: 300px;
+  top: 450px;
+  right: 30px;
+  height: 20vw;
 }
 
 .skills i,.redux{
@@ -343,8 +353,6 @@ box-shadow: 2px 2px 50px rgb(12, 0, 68);
 .contact > h1 {
   color: black;
   font-size: 35px;
-  margin-top: -5px;
-  margin-bottom: 0px;
   font-family:'Lucida Sans';
   text-shadow: 7px 7px 3px rgb(185, 185, 185);
 }
@@ -361,7 +369,7 @@ box-shadow: 2px 2px 50px rgb(12, 0, 68);
   height: 40px;
 }
 
-.contact button {
+.contact input[type|="submit"] {
   display: block;
   margin: 20px 30px;
   width: 150px;
@@ -380,23 +388,32 @@ box-shadow: 2px 2px 50px rgb(12, 0, 68);
   line-height: 25px;
   color: #88007d;
 }
+.details>a:hover{
+  color: black;
+}
 
 .contact img{
   position: absolute;
-  top: 0;
+  /* top: 400px; */
   right: 0;
-  margin-top: 400px;
-  height: 330px;
+  bottom: 0;
+  height: 25vw;
 }
 
+@media screen and (max-width: 1080px) {
+  .contact img,.contact img+p{
+    display: none;
+  }
 
-/* .bgvideo{
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    z-index: -1;
-    object-fit:cover;
-    /* transform: translate(-10.6%,-2%); 
-} */
+}
 
-
+.contact img+p{
+  position: absolute;
+  right: 17vw;
+  bottom: 18vw;
+  font-size: 0.9vw;
+  font-style: normal;
+  font-family:cursive;
+  color:#0e00d6;
+  font-weight: 700;
+}

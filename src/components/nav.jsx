@@ -22,13 +22,13 @@ export function Nav() {
                 <div>
                     <h1>VG</h1>
                     <h1>vamsi</h1>
-                    <p>{`</web developer>`}</p>
+                    <p>{`<web developer/>`}</p>
                 </div>
                 <div className={styles.headings}>
-                    <NavLink to='/' style={{textDecoration:"none"}}><div><p>{`</About>`}</p></div></NavLink>
-                    <NavLink to='/skills'style={{textDecoration:"none"}}><div><p>{`</Skills>`}</p></div></NavLink>
-                    <NavLink to='/work' style={{textDecoration:"none"}}><div><p>{`</Work>`}</p></div></NavLink>
-                    <NavLink to='/contact' style={{textDecoration:"none"}}><div><p>{`</Connect>`}</p></div></NavLink>
+                    <NavLink to='/' style={{textDecoration:"none"}}><div><p>{`<About/>`}</p></div></NavLink>
+                    <NavLink to='/skills'style={{textDecoration:"none"}}><div><p>{`<Skills/>`}</p></div></NavLink>
+                    <NavLink to='/work' style={{textDecoration:"none"}}><div><p>{`<Work/>`}</p></div></NavLink>
+                    <NavLink to='/contact' style={{textDecoration:"none"}}><div><p>{`<Connect/>`}</p></div></NavLink>
                 </div>
                 <div className={styles.icons}>
                     <a href="https://github.com/vamsinagendra2" target="_blank" rel="noopener noreferrer"><AiFillGithub /></a>
