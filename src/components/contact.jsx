@@ -50,9 +50,9 @@ export function Contact() {
                     <form action="" onSubmit={sendEmail}>
                         <input type="text" name="name" placeholder="Name" onChange={(e) => {
                             setName(e.target.value)
-                        }} />
-                        <input type="email" name="mail" placeholder="Email" />
-                        <input type="text" name="message" placeholder="Subject" />
+                        }} required/>
+                        <input type="email" name="mail" placeholder="Email" required />
+                        <input type="text" name="message" placeholder="Subject" required />
                         <input type="submit" value="send message" />
                     </form>
                 </div>
