@@ -3,7 +3,7 @@
   font-family: monospace;
 }
 .nav {
-  width: 150px;
+  width: 148px;
   height: 100vh;
   /* background-color: rgb(39, 39, 39); */
   /* background-color: rgb(0, 30, 87); */
@@ -61,7 +61,7 @@
   margin-bottom: 60px;
 }
 .headings div {
-  border: 1px solid rgb(0, 30, 87);
+  border: 1px solid rgb(0, 32, 90);
   width: 98%;
   height: 50px;
   text-align: center;

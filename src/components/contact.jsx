@@ -6,13 +6,15 @@ import hello from '../video/hello.svg'
 import { AiFillGithub } from 'react-icons/ai';
 import { AiFillLinkedin } from 'react-icons/ai';
 import emailjs from 'emailjs-com';
+import { useState } from 'react';
 
 
 export function Contact() {
 
+    const [name, setName] = useState("");
+
     const sendEmail = (e) => {
-        alert(`Thank you`);
-        // console.log(e.target.)
+        alert(`Thank you ${name}, your message will be notified to vamsi`);
         e.preventDefault();
         emailjs.sendForm(`service_gcng0uq`, `template_qzbpbfm`, e.target, `user_xNEecUmU7hYYJWfyJCZ8z`)
             .then((response) => {
@@ -20,6 +22,7 @@ export function Contact() {
             }, (err) => {
                 console.log('FAILED...', err);
             });
+        
     }
 
     return (
@@ -29,8 +32,8 @@ export function Contact() {
                 <h1>Contact me</h1>
                 <span>{"</h1>"}</span>
                 <span>{"<p>"}</span>
-                <p>Hi there!<br/> If you have some interesting and challenging problems that I can help you with,<br />
-                    feel free to connect with me.<br />
+                <p>Hi there!<br/> If you have some interesting and challenging problems that I can solve for you,<br />
+                    feel free to connect with me.I can work flexibly and hope we can make a good team too,<br />
                     Thank you....</p>
                 <span>{"</p>"}</span>
                 <span>{"</a>"}</span>
@@ -45,13 +48,13 @@ export function Contact() {
                 <span>{"<form>"}</span>
                 <div>
                     <form action="" onSubmit={sendEmail}>
-                        <input type="text" name ="name" placeholder="Name" />
+                        <input type="text" name="name" placeholder="Name" onChange={(e) => {
+                            setName(e.target.value)
+                        }} />
                         <input type="email" name="mail" placeholder="Email" />
                         <input type="text" name="message" placeholder="Subject" />
                         <input type="submit" value="send message" />
                     </form>
-                    
-                    {/* <button onClick={sendEmail}>send message</button> */}
                 </div>
 
                 <span>{"</form>"}</span>

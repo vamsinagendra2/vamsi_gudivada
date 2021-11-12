@@ -155,7 +155,8 @@ export function Work() {
                 <br />
                 <br />
                 <span>{"</p>"}</span>
-
+                <br />
+                <p>More curious to do a lot in real time....(upcoming)...</p>
             </div>
         </div>
     )
