@@ -16,7 +16,7 @@ export function Work() {
                 <span>{"</h1>"}</span>
                 <span>{"<video>"}</span>
                 <div >
-                    <div style={{marginLeft:"400px"}}>
+                    <div style={{marginLeft:"35%"}}>
                         <video autoPlay controls/*loop*/ muted className={styles.video}>
                             <source src={v5} type='video/mp4'/>
                         </video>
